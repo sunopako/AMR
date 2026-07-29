@@ -50,7 +50,7 @@ After that, the final rating ($`R`$) is simply scaled to a 100-point rating syst
 
 $`R =  \left\lfloor 1+ \left( \frac{C - m}{M - m} \right) \cdot 99 \right\rceil`$
 
-### Conversion for Letterboxd
+### Conversion for [Letterboxd](https://boxd.it/gHhZL)
 
  - `1–10` → ½
  - `11–20` → ★

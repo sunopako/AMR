@@ -38,9 +38,11 @@ All Aspects can be excluded from the calculation, and can also sometimes be incr
 
 Since the weights may vary or be zero, the minimum and maximum possible scores are unique for different ratings. Therefore, the following three variables are calculated first:
 
- - $`C = (S_1 \cdot W_1) + (S_2 \cdot W_2) + (S_3 \cdot W_3) + (S_4 \cdot W_4) + (S_5 \cdot W_5) + (S_6 \cdot W_6)+ (S_7 \cdot W_7) + (S_8 \cdot W_8) + (S_9 \cdot W_9) + (S_{10} \cdot W_{10}) + (S_{11} \cdot W_{11})`$
- - $`m = W_1 + W_2 + W_3 + W_4 + W_5 + W_6 + W_7 + W_8 + W_9 + W_{10} + W_{11}`$
- - $`M = (5 \cdot W_1) + (5 \cdot W_2) + (\textbf{3} \cdot W_3) + (5 \cdot W_4) + (5 \cdot W_5) + (5 \cdot W_6)+ (5 \cdot W_7) + (5 \cdot W_8) + (5 \cdot W_9) + (5 \cdot W_{10}) + (5 \cdot W_{11})`$
+$`C = \sum_{i=1}^{11}(S_i \cdot W_i)`$
+
+$`m = \sum_{i=1}^{11}W_i`$
+
+$`M = (5 \cdot m) - (2 \cdot W_3)`$
 
 where $`C`$ is the unadjusted rating, $`S`$ is the score for a specific Aspect, $`W`$ is the weight of a specific Aspect, $`m`$ is the minimum possible unadjusted rating, and $`M`$ is the maximum possible unadjusted rating.
 

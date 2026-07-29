@@ -37,7 +37,7 @@ Almost all of them are rated on a scale of 1 to 5, which roughly corresponds to:
 
 The only exception is ***Pacing***, which is rated on a scale of 1 to 3:
 
- 1. Rushed or dragged 🥁
+ 1. Rushed or dragged [🥁](https://boxd.it/7bQA)
  2. OK
  3. Didn't notice time flew by
 

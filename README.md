@@ -45,7 +45,7 @@ All Aspects can be excluded from the calculation (i.e. set to `0`), and can also
  - Score plays a more important role if it’s a musical or simply a film about music (e.g. [Into the Woods](https://boxd.it/1zje) or [Linda Linda Linda](https://boxd.it/1s1C)).
  - *Sound* plays a more important role if it’s a cartoon or a horror film (e.g. [Aladdin](https://boxd.it/29yE) or [The Exorcist](https://boxd.it/1Yoo)), and a lesser role when it’s a dialogue-driven film where sound design is limited almost exclusively to recording the actors’ voices (e.g. [12 Angry Men](https://boxd.it/2auI) or [My Dinner with Andre](https://boxd.it/1vLe)).
 
-None of the examples given cover all possible reasons for lowering or raising weights, but at this point I don’t believe there are any reasons, for example, to raise the weight for Direction & Cinematography or lower the weight for Score—only to turn them off if a particular Aspect is completely absent.
+None of the examples given cover all possible reasons for lowering or raising weights, but at this point I don’t believe there are any grounds, for example, to raise the weight for Direction & Cinematography or lower the weight for Score—only to turn them off if a particular Aspect is completely absent.
 
 ### Math
 

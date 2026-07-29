@@ -4,7 +4,7 @@ A movie evaluation system designed to replace arbitrary gut-feeling movie rating
 
 ### Principles
 
-To adopt such an evaluation system, certain presumptions must be accepted:
+To adopt such a system, certain presumptions must be accepted:
 
  - Art is inherently quantifiable.
  - The author is dead, as are all the factors surrounding the film under evaluation: the studio’s ambitions, audience reception, box office performance, controversies involving the actors, etc.

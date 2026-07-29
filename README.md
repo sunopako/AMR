@@ -52,7 +52,7 @@ All Aspects can be excluded from the calculation (i.e. corresponding weight set 
  - Casting & Acting play a more important role in chamber dramas or films with a limited acting ensemble (e.g. [Carnage](https://boxd.it/2peU) or [Marriage Story](https://boxd.it/hJAw)).
  - Choreography ∨ Stunts play a more important role in dance musicals or martial arts films (e.g. [Singin’ in the Rain](https://boxd.it/29oY) or [Hero](https://boxd.it/2bcq)), and a less important role in dialogue-driven films (e.g. [Before Sunrise](https://boxd.it/2bcU) or [The Sunset Limited](https://boxd.it/o8M)).
  - Production & Art Designs play a more important role in fantasy, science fiction, or historical films (e.g. [Alien](https://boxd.it/2awY) or [The Witch](https://boxd.it/9X0m)), and a less important role in films set in contemporary everyday life (e.g. [Clerks](https://boxd.it/2706) or [Youth](https://boxd.it/9Y7S)).
- - CGI ∨ Animation play a more important role in blockbusters with a strong emphasis on visuals or in cartoons (e.g. [Interstellar](https://boxd.it/4VZ8) or [Puss in Boots: The Last Wish](https://boxd.it/aaie)), and a less important role when these elements are used but are almost irrelevant to the film as a whole (e.g. [Pulp Fiction](https://boxd.it/29Pq) or [Challengers](https://boxd.it/zld0)).
+ - CGI ∨ Animation play a more important role in blockbusters with a strong emphasis on generated visuals or in cartoons (e.g. [Interstellar](https://boxd.it/4VZ8) or [Puss in Boots: The Last Wish](https://boxd.it/aaie)), and a less important role when these elements are used but are almost irrelevant to the film as a whole (e.g. [Pulp Fiction](https://boxd.it/29Pq) or [Challengers](https://boxd.it/zld0)).
  - Score plays a more important role if it’s a musical or simply a film about music (e.g. [Into the Woods](https://boxd.it/1zje) or [Linda Linda Linda](https://boxd.it/1s1C)).
  - *Sound* plays a more important role if it’s a cartoon or a horror film (e.g. [Aladdin](https://boxd.it/29yE) or [The Exorcist](https://boxd.it/1Yoo)), and a lesser role when it’s a dialogue-driven film where sound design is limited almost exclusively to recording the actors’ voices (e.g. [12 Angry Men](https://boxd.it/2auI) or [My Dinner with Andre](https://boxd.it/1vLe)).
 
@@ -68,13 +68,15 @@ $`\Huge m = \sum_{i=1}^{11}W_i`$
 
 $`\Huge M = (5 \cdot m) - (2 \cdot W_3)`$
 
-where $`C`$ is the unadjusted rating, $`S`$ is the score for a specific Aspect, $`W`$ is the weight of a specific Aspect, $`m`$ is the minimum possible unadjusted rating, and $`M`$ is the maximum possible unadjusted rating.
+where $`C`$ is the raw rating, $`S`$ is the score for a specific Aspect, $`W`$ is the weight of a specific Aspect, $`m`$ is the minimum possible raw rating, and $`M`$ is the maximum possible raw rating.
 
 After that, the final rating ($`R`$) is simply scaled to a 100-point rating system:
 
 $`\Huge R =  \left\lfloor 1+ \left( \frac{C - m}{M - m} \right) \cdot 99 \right\rceil`$
 
 ### Conversion for [Letterboxd](https://boxd.it/gHhZL)
+
+In conclusion, the rating is linearly mapped to a 10-point star scale:
 
  - `1–10` → ½
  - `11–20` → ★

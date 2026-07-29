@@ -18,7 +18,7 @@ I love scales and sliders, so I developed a movie rating system for myself that 
 
 Almost all of them are rated on a scale of 1 to 5, which roughly corresponds to:
 
- 1. Poor
+ 1. Bad
  2. Below Average
  3. OK
  4. Above Average

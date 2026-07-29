@@ -62,17 +62,17 @@ None of the examples given cover all possible reasons for lowering or raising we
 
 Since the weights may vary or be zero, the minimum and maximum possible scores are unique for different ratings. Therefore, the following three variables are calculated first:
 
-$`C = \sum_{i=1}^{11}(S_i \cdot W_i)`$
+$`\Huge C = \sum_{i=1}^{11}(S_i \cdot W_i)`$
 
-$`m = \sum_{i=1}^{11}W_i`$
+$`\Huge m = \sum_{i=1}^{11}W_i`$
 
-$`M = (5 \cdot m) - (2 \cdot W_3)`$
+$`\Huge M = (5 \cdot m) - (2 \cdot W_3)`$
 
 where $`C`$ is the unadjusted rating, $`S`$ is the score for a specific Aspect, $`W`$ is the weight of a specific Aspect, $`m`$ is the minimum possible unadjusted rating, and $`M`$ is the maximum possible unadjusted rating.
 
 After that, the final rating ($`R`$) is simply scaled to a 100-point rating system:
 
-$`R =  \left\lfloor 1+ \left( \frac{C - m}{M - m} \right) \cdot 99 \right\rceil`$
+$`\Huge R =  \left\lfloor 1+ \left( \frac{C - m}{M - m} \right) \cdot 99 \right\rceil`$
 
 ### Conversion for [Letterboxd](https://boxd.it/gHhZL)
 

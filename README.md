@@ -1,4 +1,4 @@
-## AMR — Autistic Movie Ranker `(v1)`
+## AMR — Autistic Movie Ranker `(v1 — Amélie)`
 
 A movie evaluation system designed to replace arbitrary gut-feeling movie ratings with a little less arbitrary mathematically grounded 100-point rating.
 

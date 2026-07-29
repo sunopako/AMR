@@ -32,7 +32,7 @@ The only exception is ***Pacing***, which is rated on a scale of 1 to 3:
 
 ### Weighing System
 
-All Aspects can be excluded from the calculation, and can also sometimes be increased or decreased. Almost all of them have a low weight of `0.5`, a standard weight of `1.0`, and a high weight of `2.0`. The exceptions are ***Pacing***, with weights of `1.0`, `2.0`, and `4.0`, respectively, and *Sound*, with weights of `0.25`, `0.5`, and `2.0`, respectively.
+All Aspects can be excluded from the calculation (i.e. set to `0`), and can also sometimes be increased or decreased. Almost all of them have a low weight of `0.5`, a standard weight of `1.0`, and a high weight of `2.0`. The exceptions are ***Pacing***, with weights of `1.0`, `2.0`, and `4.0`, respectively, and *Sound*, with weights of `0.25`, `0.5`, and `2.0`, respectively.
 
 #### Why change weights
 

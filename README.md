@@ -45,9 +45,8 @@ The only exception is ***Pacing***, which is rated on a scale of 1 to 3:
 
 All Aspects can be excluded from the calculation (i.e. corresponding weight set to `0`), and can also sometimes be adjusted in terms of their importance. Almost all of them have a low weight of `0.5`, a standard weight of `1.0`, and a high weight of `2.0`. The exceptions are:
 
- - ***Pacing***, with weights of `1.0`, `2.0`, and `4.0`, respectively.
+ - ***Pacing***, ***Script*** and ***Lines*** with weights of `1.0`, `2.0`, and `4.0`, respectively.
  - *Сhoreography ∨ Stunts* and *Sound*, with weights of `0.25`, `0.5`, and `2.0`, respectively.
- - ***Script*** and ***Lines*** with the standard weight of `2.0`.
 
 #### Why change weights
 
